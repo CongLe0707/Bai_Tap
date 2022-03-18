@@ -1,0 +1,72 @@
+Bài 1: Cho 2 số nguyên A và B được nhập vào từ bàn phím. Tính tổng, hiệu, tích, thương (chú ý thương được làm tròn 2 số thập phân).
+ 
+Bài 2: Cho 3 số A và B và C được nhập vào từ bàn phím. Tìm số lớn nhất và số nhỏ nhất.
+
+Bài 3: Nhập vào một tháng trong năm. In ra màn hình tháng đó có bao nhiêu ngày.
+
+Bài 4: Nhập vào số nguyên N. Tính tổng theo công thức 1/2 + 2/3 + ....... N/(N+1)
+    sum = 0;
+    for từ 0 -> N
+    sum = i/(i+1)
+
+Bài 5: Nhập vào số nguyên N. In ra màn hình các dãy số nguyên từ 0 đến N.
+
+Bài 6: Nhập vào số nguyên N. In ra màn hình dãy số Fibonacci đến N.
+
+Bài 7: Nhập vào số nguyên N. Liệt kê tất cả các ước số nguyên của N và tính tổng của chúng.
+
+Bài 8: Nhập vào số nguyên N. Liệt kê tất cả các ước số lẻ của số nguyên dương N và và tìm ước số lẻ lớn nhất.
+
+Bài 9*: Nhập vào cơ số a và b và c. Tìm nghiệm của phương trình a*x^2 + b*x + c = 0.
+
+Bài 10*: Hãy đếm số lượng chữ số của số nguyên dương n
+
+Bài 11*: Hãy kiểm tra số nguyên dương n có toàn chữ số lẻ hay không. Ví dụ: 135 -> toàn lẻ, 12487 -> không toàn lẻ.
+    nếu 123 -> không toàn số lẻ
+    nếu 117 -> toàn số lẻ
+    tách từng số ra vd 123 thì tách ra thành 1   2   3 sau đó kiểm tra xem có phải số lẻ hết không
+
+Bài 12*: Hãy kiểm tra các chữ số của số nguyên dương n có tăng dần từ trái sang phải hay không. Ví dụ: 135 -> tăng dần, 12487 -> không tăng dần.
+    nếu 123 -> tăng
+    nếu 117 -> không tăng
+    nếu 132 -> không tăng
+    nếu 15 -> tăng
+    tách từng số ra vd 123 thì tách ra thành 1   2   3 xong kiểm tra xem có tăng dần hay không
+
+Bài 13: Hãy sử dụng vòng lặp for để xuất tất cả các ký tự từ A đến Z.
+
+Bài 14: Hãy sử dụng vòng lặp for để xuất tất cả các ký tự từ A đến Z.
+
+Bài 15: Tìm ước số chung lớn nhất của 2 số nguyên dương A và B được nhập từ bàn phím.
+
+Bài 16*: Viết chương trình nhập vào 1 ngày ( ngày, tháng, năm). Tìm ngày kế ngày vừa nhập (ngày, tháng, năm). 
+    nếu 1/1/2021 -> 2/1/2021
+    nếu 30/4/2021 -> 1/5/2021
+    nếu 28/2/2021 -> 1/3/2021
+    nếu 28/2/2020 -> 29/2/2020
+    nếu 31/12/2021 -> 1/1/2022
+
+Bài 17: Viết chương trình nhập số nguyên N*. Kiểm tra xem N có phải là số nguyên tố hay không.
+
+Bài 18: Viết hàm tìm tất cả các số nguyên tố nhỏ hơn 100. Chú ý các số tìm được phải đưa vào mảng và in ra màn hình mảng số nguyên tố vừa tìm được.
+
+Bài 19: Viết chương trình nhập vào dãy số N phần tử với yêu cầu sau:
+    - Độ người dùng nhập vào từ bàn phím.
+    - Giá trị phần tử được nhập tự động.dài mảng do 
+    - Giá trị mảng được nhập tự động và giới hạn trong [-5 ; 100]
+    - Tìm và in ra màn hình tất cả các số nguyên tố trong mảng.
+    - Tìm và in ra màn hình ước số lớn nhất của một phần tử trong mảng. Phần tử đó do người dùng nhập vào vị trí trong mảng.
+    - Sắp xếp mảng theo thứ tự tăng dần và giảm dần.
+
+Bài 20: Viết chương trình nhập vào dãy số N phần tử với yêu cầu sau:
+    - Độ dài mảng do người dùng nhập vào từ bàn phím.
+    - Giá trị mảng được nhập tự động và giới hạn trong [x ; y]. Giá trị x và y do người dùng nhập vào.
+    - Tính tổng, hiệu, tích, thương các phần tử của mảng.
+    - Sắp xếp mảng theo thứ tự số chẵn đầu mảng tăng dần và số lẻ ở cuối mảng giảm dần.
+
+Bài 21: Viết chương trình nhập vào dãy số N phần tử với yêu cầu sau:
+    - Độ dài mảng do người dùng nhập vào từ bàn phím.
+    - Giá trị mảng được nhập tự động và giới hạn trong [x ; y]. Giá trị x và y do người dùng nhập vào.
+    - Cho 2 mảng B và C, mảng B chứa toàn số chẵn và mảng C chứa toàn số lẻ (các phần tử được lấy từ mảng A).
+    - Sắp xếp mảng B tăng dần và mảng C giảm dần.
+    - Cho mảng B trộn với mảng C và đưa vào mảng D sao cho mảng D tăng dần (không được trộn rồi mới sắp xếp mà phải vừa trộn vừa sắp xếp).
